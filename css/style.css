@@ -9,11 +9,12 @@ body {
 .flex-container {
     display: flex;
     margin: auto;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .flex-container div {
-    flex: 1;
-    text-align: center;
+    text-align: center
 }
 
 a {
@@ -68,7 +69,6 @@ a:active {
     margin: auto;
 }
 
-}
 
 ul {
     margin: 5px;
