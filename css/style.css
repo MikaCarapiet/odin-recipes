@@ -3,18 +3,18 @@ body {
     background-color: #ffffff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
-    width: 900px
 }
 
 .flex-container {
     display: flex;
-    margin: auto;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex: 1 1 0%;
 }
 
 .flex-container div {
-    text-align: center
+    text-align: center;
+
 }
 
 a {
@@ -22,7 +22,6 @@ a {
     font-weight: bold;
     margin: auto;
     padding: 5px;
-    text-align: center;
     text-decoration: none;
 }
 
